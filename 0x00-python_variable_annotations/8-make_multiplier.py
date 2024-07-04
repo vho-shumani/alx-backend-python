@@ -6,5 +6,5 @@ from typing import Callable
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """Return a tuple"""
     def multiply(n: float) -> float:
-        n * multiplier
+        return n * multiplier
     return multiply
